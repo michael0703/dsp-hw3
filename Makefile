@@ -27,7 +27,7 @@ all: $(TARGET)
 map:
 	@#TODO
 	#g++ mymapping.cpp -o mymapping
-	#./mymapping $(FROM) $(TO)	
-	python3 mapping.py $(FROM) $(TO)
+	#/mymapping $(FROM) $(TO)	
+	python3 ./src/mapping.py $(FROM) $(TO)
 clean:
 	$(RM) $(OBJ) $(TARGET)
